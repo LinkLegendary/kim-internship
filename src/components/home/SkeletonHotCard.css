@@ -1,0 +1,54 @@
+
+.skeleton {
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin: 10px 0;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .skeleton-author {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .skeleton-img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .skeleton-title {
+    width: 80%;
+    height: 20px;
+  }
+  
+  .skeleton-price {
+    width: 40%;
+    height: 16px;
+  }
+
+  .skeleton-item{
+    width: 200px;
+  }
+
+
+  .slider-box{
+    display: flex;
+    justify-content:center;
+  }
+  
+  
+
+
+
+  @keyframes pulse {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #f0f0f0;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
