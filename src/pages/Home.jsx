@@ -13,6 +13,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
+// kim-merge 
 
   useEffect(() => {
     AOS.init({
