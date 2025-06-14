@@ -11,7 +11,11 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
+<<<<<<< HEAD
 //   kim- onboarding 
+=======
+// from main . do not remove 
+>>>>>>> main
 
   return (
     <div id="wrapper">
