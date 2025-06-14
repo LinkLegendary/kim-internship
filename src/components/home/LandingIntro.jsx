@@ -5,10 +5,11 @@ const LandingIntro = () => {
     <section
     id="section-intro" 
     className="no-top no-bottom"
-    data-aos="zoom-in"
-          data-aos-delay="800"
+    
     >
-      <div className="container">
+      <div className="container"
+      data-aos="fade-up" data-aos-delay="300"
+      >
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-sm-30">
             <div className="feature-box f-boxed style-3">
