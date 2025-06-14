@@ -11,7 +11,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  // test do not touch !!!!
+// from main . do not remove 
 
   return (
     <div id="wrapper">
