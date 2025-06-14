@@ -53,7 +53,7 @@ useEffect(() => {
  setTimeout(() => {
  fetchItems()
 
- },3000)
+ },)
 
 },[])
 

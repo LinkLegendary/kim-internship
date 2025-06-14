@@ -34,7 +34,7 @@ const TopSellers = () => {
         setIsLoading(false);
       }
     });
-  }, 5000);
+  }, );
 
   return () => {
     isMounted = false;       // prevent state updates
