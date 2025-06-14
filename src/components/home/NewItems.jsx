@@ -12,7 +12,7 @@ import "./NewItems.css"
 import "./HotCollections.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import CountdownTimer from "../explore/CountdownTimer";
 
 
 
@@ -113,8 +113,8 @@ const settings = {
                 <i className="fa fa-check"></i>
               </Link>
             </div>
-
-            <div className="de_countdown">{item.time || "5h 30m 32s"}</div>
+            <CountdownTimer endTime={item.expiryDate} />
+           
 
             <div className="nft__item_wrap">
               <div className="nft__item_extra">
