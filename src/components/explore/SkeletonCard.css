@@ -1,0 +1,49 @@
+.skeleton-card {
+    height: 100%;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  .skeleton {
+    background-color: #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .skeleton-img {
+    height: 180px;
+    width: 100%;
+  }
+  
+  .skeleton-title {
+    height: 20px;
+    width: 60%;
+  }
+  
+  .skeleton-price {
+    height: 18px;
+    width: 40%;
+  }
+  
+  .skeleton-likes {
+    height: 18px;
+    width: 30%;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
